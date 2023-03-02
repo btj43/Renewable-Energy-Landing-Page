@@ -19,5 +19,19 @@ function giveTips() {
     }
   }
 
-  let tipsButton = document.querySelector("button");
-  tipsButton.addEventListener("click", giveTips);
+let tipsButton = document.querySelector("button");
+tipsButton.addEventListener("click", giveTips);
+
+
+let quote = document.querySelector("#quote");
+let author = document.querySelector("#author");
+let button = document.querySelector("#btn");
+
+button.addEventListener("click", getQuote)
+function getQuote() {
+    fetch("https://quotable.io/random?tags=science|hope").then(response=>response.json(Promise[2]))
+    .then(data => {
+        quote.innerHTML = `"${data.content}"`;
+        author.innerHTML = data.author;
+    })
+}
