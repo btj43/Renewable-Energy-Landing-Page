@@ -23,7 +23,8 @@ img {
   border-radius: 30px;
   max-width: 80%;
 }
-ul {
+
+.renewable-energy-list {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -31,7 +32,7 @@ ul {
   font-size: 21px;
 }
 
-li {
+.renewable-energy-list-item {
   list-style-type: none;
   padding: 10px;
   font-size: 19px;
@@ -71,7 +72,7 @@ span {
   border-color: #c5e6dd;
   border-style: solid;
 }
-button {
+.homepage-buttons {
   display: block;
   margin: 0 auto;
   border-radius: 30px;
@@ -84,13 +85,44 @@ button {
   box-shadow: 4px 2px 2px #12783c;
   transition: all 300ms ease-in-out;
 }
-button:hover {
+.homepage-buttons:hover {
   color: #c5e6dd;
   background-color: rgb(8, 65, 91);
   cursor: pointer;
 }
 
-.small-button {
+.tipsinfo {
+  padding: 15px;
+}
+
+.tipsinfo:hover {
+  background-color: rgb(8, 65, 91);
+  border-radius: 15px;
+  border-color: #c5e6dd;
+  border-style: solid;
+}
+
+.quote-section {
+  border: #c5e6dd;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(200, 162, 200, 0.6);
+  color: rgb(8, 65, 91);
+}
+
+.quote-title {
+  font-size: 20px;
+}
+
+.author {
+  text-align: center;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: #f7e5e7;
+  font-size: 15px;
+}
+
+.Homepage-button {
   display: block;
   margin: 0 auto;
   border-radius: 30px;
@@ -103,25 +135,11 @@ button:hover {
   box-shadow: 4px 2px 2px #12783c;
   transition: all 300ms ease-in-out;
 }
-.small-button:hover {
+
+.Homepage-button:hover {
   color: #c5e6dd;
   background-color: rgb(8, 65, 91);
   cursor: pointer;
-}
-.tipsinfo {
-  padding: 15px;
-}
-.tipsinfo:hover {
-  background-color: rgb(8, 65, 91);
-  border-radius: 15px;
-  border-color: #c5e6dd;
-  border-style: solid;
-}
-h3 {
-  text-align: center;
-  font-family: Geneva, Tahoma, sans-serif;
-  color: #f7e5e7;
-  font-size: 15px;
 }
 
 .home-link {
