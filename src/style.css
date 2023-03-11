@@ -51,6 +51,7 @@ hr {
 }
 .more-info {
   color: #68a080;
+  font-size: 12px;
 }
 div {
   text-align: center;
@@ -60,6 +61,15 @@ div {
 }
 span {
   font-style: italic;
+}
+.facts {
+  padding: 15px;
+}
+.facts:hover {
+  background-color: rgb(8, 65, 91);
+  border-radius: 15px;
+  border-color: #c5e6dd;
+  border-style: solid;
 }
 button {
   display: block;
@@ -97,6 +107,15 @@ button:hover {
   color: #c5e6dd;
   background-color: rgb(8, 65, 91);
   cursor: pointer;
+}
+.tipsinfo {
+  padding: 15px;
+}
+.tipsinfo:hover {
+  background-color: rgb(8, 65, 91);
+  border-radius: 15px;
+  border-color: #c5e6dd;
+  border-style: solid;
 }
 h3 {
   text-align: center;
